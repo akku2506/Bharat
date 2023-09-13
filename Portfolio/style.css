@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #dc1b52;
+}
+#aks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#btn{
+    height: 100px;
+    width: 150px;
+    color:black;
+    background-color: rgb(36, 198, 90);
+    font-size: 30px;
+    cursor: pointer;
+}
+#hm{
+    height: 50px;
+    width: 200px;
+    color:white;
+    background-color:black;
+}
+h{
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+}
+h3{
+    font-size: 30px;
+    padding-left: 20px;
+}
+h1{
+    font-size: 80px;
+    padding-left: 200px;
+    color: aliceblue;
+}
+p{
+    font-size: 20px;
+    padding-left: 100px;
+}
+#home{
+    height: 120px;
+    width: 150px;
+    background-image: url(home.jpg);
+    background-size: cover;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    padding-top: 5px;
+    display: inline-block;
+    margin-right: 50px;
+}
+#about{
+    height: 120px;
+    width: 150px;
+    background-image: url(about.jpg);
+    background-size: cover;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    padding-top: 5px;
+    display: inline-block;
+    margin-right: 50px;
+}
+#work{
+    height: 120px;
+    width: 150px;
+    background-image: url(work.jpg);
+    background-size: cover;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    padding-top: 5px;
+    display: inline-block;
+    margin-right: 50px;
+}
+#HCJ{
+    height: 70px;
+    width: 100px;
+    background-color: lavender;
+    color: red;
+    border: 5px solid black;
+    text-align: center;
+    margin: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+box{
+    display: flex;
+    padding: 10px 10px;
+}
+#aaa{
+    font-size: 50px;
+}
